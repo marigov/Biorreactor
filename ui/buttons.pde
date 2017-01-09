@@ -93,8 +93,8 @@ void set_RPM ()
    cp5.getController("set_RPM").setColorBackground(color(222, 40,  103));
    cp5.getController("set_RPM").setCaptionLabel("SET");
   
-  // myPortRPM.write(str(targetRPM));
-  // myPortRPM.clear();
+   myPortRPM.write(str(targetRPM));
+   myPortRPM.clear();
    println("RPM set"); 
 
 }
@@ -114,8 +114,8 @@ void set_PH ()
 {
    cp5.getController("set_PH").setColorBackground(color(69,  205,  104));
    cp5.getController("set_PH").setCaptionLabel("SET");
-   myPortPH.write(str(targetPH));
-   myPortPH.clear();
+   //myPortPH.write(str(targetPH));
+  // myPortPH.clear();
    println("PH set"); 
 
 }
